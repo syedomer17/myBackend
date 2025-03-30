@@ -51,7 +51,7 @@ server/
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/your-project.git
+git clone git@github.com:syedomer17/myBackend.git  ## SSH url 
 
 # Install dependencies
 cd your-project
