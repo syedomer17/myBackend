@@ -4,8 +4,6 @@ import config from "config";
 const userEmail: string = config.get<string>("EMAIL");
 const userPassword: string = config.get<string>("Password");
 
-console.log(userEmail, userPassword);
-
 async function sendEmail(emailData: {
   to: string;
   text?: string;
