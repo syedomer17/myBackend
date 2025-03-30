@@ -62,6 +62,7 @@ cd server
 mkdir config
 cd config
 touch default.json
+cd ..
 
 # Start the server
 npm run dev
